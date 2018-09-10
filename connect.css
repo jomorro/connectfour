@@ -1,0 +1,36 @@
+.board {
+    height: 350px;
+    width: 416px;
+    background-color: grey;
+    border: 2px;
+    outline: 2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    background-color: lightskyblue;
+    height: 300px;
+    width: 350px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.square {
+    background-color: white;
+    height: 48px;
+    width: 48px;
+    margin: 1px 3px;
+    border-radius: 25px;
+    box-shadow: 1px 2px rgb(95, 155, 179);
+}
+
+.player1 {
+    background-color: red;
+}
+
+.player2 {
+    background-color: black;
+}
